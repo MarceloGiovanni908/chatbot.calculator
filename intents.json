@@ -4,7 +4,7 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",
+        "Hey", 
         "How are you",
         "Is anyone there?",
         "Hello",
@@ -22,7 +22,7 @@
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
-        "Have a nice day",
+        "Have a nice day", 
         "Bye! Come back again soon."
       ]
     },
@@ -78,6 +78,106 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "pdf_extract",
+      "patterns": [
+        "Extract text from PDF",
+        "Read PDF file",
+        "Get text from PDF", 
+        "Parse PDF document",
+        "Extract PDF content",
+        "Can you read PDF files?",
+        "How to extract PDF text?",
+        "PDF text extraction",
+        "Convert PDF to text",
+        "extract pdf"
+      ],
+      "responses": [
+        "I can help you extract text from PDF files! Please provide the PDF file path or upload the PDF document.",
+        "Sure! I can extract text content from PDF documents. Just share the PDF file with me.",
+        "PDF text extraction is available. Please specify the PDF file you want to process.",
+        "I'm ready to help with PDF text extraction. What PDF file would you like me to process?"
+      ]
+    },
+    {
+      "tag": "pdf_math",
+      "patterns": [
+        "Process PDF with math",
+        "Extract formulas from PDF",
+        "Translate PDF and find formulas",
+        "Read PDF and calculate",
+        "PDF math processing",
+        "Analyze mathematical PDF",
+        "Extract and translate math from PDF",
+        "process PDF with math"
+      ],
+      "responses": [
+        "I can process PDF files, translate Indonesian text to English, and extract mathematical formulas! Please provide the PDF file path.",
+        "I'll extract text from your PDF, translate it, and identify mathematical formulas for calculation.",
+        "PDF math processing is ready! Provide the PDF path and I'll analyze the mathematical content."
+      ]
+    },
+    {
+      "tag": "math_calculate",
+      "patterns": [
+        "Calculate",
+        "Compute",
+        "Solve math",
+        "Do calculation",
+        "Math operation",
+        "Add numbers",
+        "Subtract numbers",
+        "Multiply numbers", 
+        "Divide numbers",
+        "What is",
+        "How much is",
+        "calculate length",
+        "calculate width",
+        "calculate side",
+        "rectangle calculation",
+        "square calculation", 
+        "area calculation",
+        "circle calculation",
+        "triangle calculation"
+      ],
+      "responses": [
+        "I can perform mathematical calculations! Use format like 'calculate 5 + 3' or provide variable values like 'length=10, width=5'",
+        "Ready to calculate! Tell me the numbers and operation (+, -, *, /) you want to perform.",
+        "Math calculator ready! Provide your calculation request."
+      ]
+    },
+    {
+      "tag": "variable_assignment",
+      "patterns": [
+        "length=10",
+        "width=5",
+        "side=4", 
+        "radius=3",
+        "base=6",
+        "height=4",
+        "length=12, width=8",
+        "side=7",
+        "radius=5",
+        "base=6, height=4",
+        "length=10, width=5",
+        "side=3",
+        "radius=2",
+        "base=8, height=6",
+        "length = 15",
+        "width = 10", 
+        "side = 5",
+        "radius = 4",
+        "base = 7, height = 3",
+        "length=20, width=15",
+        "side=8",
+        "radius=6"
+      ],
+      "responses": [
+        "I'll calculate the geometric properties for you!",
+        "Let me compute the area and perimeter/circumference for those values.",
+        "Perfect! I'll process your geometric calculation."
       ]
     }
   ]

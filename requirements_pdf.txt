@@ -1,0 +1,13 @@
+# Requirements for PDF extraction functionality
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+# pymupdf==1.23.3  # Commented out - requires Visual Studio Build Tools
+
+# Translation and math processing
+googletrans==4.0.0rc1
+sympy==1.12
+
+# Existing dependencies (if needed)
+torch
+nltk
+numpy
